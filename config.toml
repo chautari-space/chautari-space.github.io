@@ -130,26 +130,29 @@ theme = "hugo-agency-theme"
       name = "Avash Mulmi"
       position = "Lead xxx"
       social = [
-        ["fa-twitter", "#avash"],
-        ["fa-facebook", "#avash"],
-        ["fa-linkedin", "#avash"]
+        ["fa-link", "#avash"],
+        ["fa-github", "#"],
+        ["fa-twitter", "#avash"]
       ]
 
 		[[params.team.members]]
       img = "2.jpg"
       name = "Arjun Gautam"
       position = "Lead XXX"
-			social = [
-        ["fa-twitter", "#mjt"],
-        ["fa-facebook", "#mjt"],
-        ["fa-linkedin", "#mjt"]
-			]
+      social = [
+        ["fa-link", "#avash"],
+        ["fa-github", "https://github.com/arjun-gautam"],
+        ["fa-twitter", "#avash"]
+      ]
 
     [[params.team.members]]
       img = "2.jpg"
       name = "Manish Jung Thapa"
       position = "Lead xxx"
       social = [
+        ["fa-link", "#avash"],
+        ["fa-github", "https://github.com/emp3ror"],
+        ["fa-twitter", "#avash"]
         ["fa-twitter", "#avash"],
         ["fa-facebook", "#avash"],
         ["fa-linkedin", "#avash"]
@@ -160,9 +163,9 @@ theme = "hugo-agency-theme"
       name = "अभिनाश (Avinash)"
       position = "Lead xxx"
       social = [
-        ["fa-twitter", "#avash"],
-        ["fa-facebook", "#avash"],
-        ["fa-linkedin", "#avash"]
+        ["fa-link", "#avash"],
+        ["fa-github", "https://github.com/hardfire"],
+        ["fa-twitter", "#avash"]
       ]
 
     [[params.team.members]]
@@ -170,29 +173,29 @@ theme = "hugo-agency-theme"
       name = "Nootan Ghimire"
       position = "Lead xxx"
       social = [
-        ["fa-twitter", "#avash"],
-        ["fa-facebook", "#avash"],
-        ["fa-linkedin", "#avash"]
+        ["fa-link", "#avash"],
+        ["fa-github", "https://github.com/nootanghimire"],
+        ["fa-twitter", "#avash"]
       ]
 
     [[params.team.members]]
-      img = "2.jpg"
-      name = "Rhoit Man Amatya"
+      img = "rhoit.png"
+      name = "Rohit Man Amatya"
       position = "Lead xxx"
       social = [
-        ["fa-twitter", "#avash"],
-        ["fa-facebook", "#avash"],
-        ["fa-linkedin", "#avash"]
+        ["fa-link", "http://rhoit.com"],
+        ["fa-github", "https://github.com/rhoit"],
+        ["fa-twitter", "https://twitter.com/rhoitman"]
       ]
 
 		[[params.team.members]]
-      img = "2.jpg"
+      img = "rupak.jpg"
       name = "Rupak Raj Ghimire"
       position = "Lead xxx"
-			social = [
-        ["fa-twitter", "#avash"],
-        ["fa-facebook", "#avash"],
-        ["fa-linkedin", "#avash"]
+      social = [
+        ["fa-link", "http://rupakraj.com"],
+        ["fa-github", "https://github.com/rupakraj"],
+        ["fa-twitter", "https://twitter.com/rughimire"]
 			]
 
 		[[params.team.members]]
@@ -200,9 +203,10 @@ theme = "hugo-agency-theme"
       name = "Shalil Awaley"
       position = "xxx"
 			social = [
-        ["fa-twitter", "#krazedkrish"],
-        ["fa-facebook", "#krazedkrish"],
-        ["fa-linkedin", "#shalil-awaley-b2161869"]
+        ["fa-link", "http://krazedkrish.com"],
+        ["fa-github", "https://github.com/krazedkrish"],
+        ["fa-twitter", "https://twitter.com/krazedkrish"],
+        ["fa-envelope", "mailto:krazedkrish@gmail.com"]
 			]
 
 	# Client section
