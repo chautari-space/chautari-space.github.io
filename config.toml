@@ -153,9 +153,6 @@ theme = "hugo-agency-theme"
         ["fa-link", "#avash"],
         ["fa-github", "https://github.com/emp3ror"],
         ["fa-twitter", "#avash"]
-        ["fa-twitter", "#avash"],
-        ["fa-facebook", "#avash"],
-        ["fa-linkedin", "#avash"]
       ]
 
     [[params.team.members]]
