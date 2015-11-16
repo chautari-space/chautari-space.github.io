@@ -220,8 +220,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
-    background-color: #fed136;
+    color: #fed136;
+    background-color: rgba(254, 209, 54, 0);
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
