@@ -1,78 +1,32 @@
-Hacker Space Website
-====================
+# Chautari
 
-This is static website hosted in http://chautari-space.github.io. It is generated using hugo
+“Chautari”, (Nepali: चौतारी), is a common (normally central) place in a community where people gather and talk on various topic, discuss on stuffs and take decisions. It’s an open & free place where anyone in the community can participate both actively or passively. 
 
-## How to contribute
+We are creating hub trying to build an ecosystem for techies with willingness to share and grow together.
 
-### [Hugo](http://gohugo.io/)
+## Our Focus
 
-Hugo is a general-purpose website framework, static site generator, similar to jekyll. It flexibly works with many formats and is ideal for blogs, docs, portfolios and much more. It is written for speed and performance.
+Basically, we focus on these sector, (but not limited to)
 
-Hugo is a static site generator like jekyll.
-### Installing Hugo
+### Free working space
 
-  - Archlinux
+provides free space for working on the projects, in return one would help the community by helping and taking part actively in other components such as building the space, promoting the space or maybe contributing with resources.
 
-  ```sh
-    $ yaourt -S hugo-git
-  ```
+### Idea sharing platform
 
-  - Other linux
+Meetups: finding good venue for meetup has become tedious thing, we can use the space as a common place for hosting meetups of different communities working in Kathmandu/Nepal. 
 
-    ```sh
-      $ # hugo can be installed either using gem or npm
-      $ ## if using ruby gem
-      $ gem install hugo
-      $ ## or you can use npm
-      $ npm install -g hugo
-    ```
+Unconference/OpenSpace conference : Taking idea from barcamp and similar events we can provide a space to share ideas maybe on weekends, ideas can be collected via website or directly announcing on the very day.
 
-  - Installing hugo from source
+### Early adopter culture
 
-    Follow the guide in http://exponential.io/blog/2015/02/25/install-hugo-on-ubuntu-linux/
+Nepal ( and most of the South Asia) lacks this culture. To boost this culture, we give Startups or entrepreneurs to showcase their product, volunteers and others associated with this organisation, helps by testing the product, giving their reactions, suggestion (good or bad) , also sharing their thoughts on the product by blogging and sharing via social media.
 
-### Set up the site
-  - Clone the source branch and create folders
+### Help, share and grow together (MUST)
 
-  ```sh
-    $ cd /path/to/projects
-    $ # clone the source branch
-    $ git clone https://github.com/chautari-space/chautari-space.github.io.git -b source
-    $ cd chautari-space.github.io
-    $ # make directories required by hugo
-    $ mkdir -p archetypes content data layouts public static
-  ```
+Best thing about this space is help, share and grow together. One gets space to work for own’s project, in return helps in other project to grow or help in global open projects like Mozilla, wikipedia, different projects in githubs
+The people working in the space can collaborate with one another and share collective intelligence to boost the overall technological environment of Nepal. A possible idea is, small projects of many people working there may be combined into one huge project which can help a lot of people.
 
-### Modify the site
+# Who are We?
 
-To make changes in the contents or details modify ```sh config.toml```
-
-To modify the front end look and feel (html, css, layout, javascripts) modify the themes/hugo-agency-theme. The layout is located in themes/hugo-agency-theme/layouts/. Similary, css in themes/hugo-agency-theme/static/css and javascripts in themes/hugo-agency-theme/static/js.
-
-### View and Deploy the changes
-
-Preview the changes by opening a localhost at 1313 port using the command.
-
-  ```sh
-    $ hugo server -w --theme=hugo-agency-theme --buildDrafts
-  ```
-
-Generate the final static site using
-
-  ```sh
-    $ hugo --theme=hugo-agency-theme
-  ```
-
-Deploy the generated site to github
-
-  ```sh
-    $ # stay in source branch
-    $ git checkout source
-    $ # add the changes
-    $ git add .
-    $ # commit the changes
-    $ git commit -m "commit message"
-    $ # push only generated files in public directory to master branch
-    $ git subtree push --prefix public origin master
-  ```
+We are active volunteer associated with different developers community, nationwide or globally, for Greater Good
